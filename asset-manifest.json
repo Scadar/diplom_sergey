@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/diplom_sergey/static/css/main.07a3badb.chunk.css",
-    "main.js": "/diplom_sergey/static/js/main.3279e4fe.chunk.js",
-    "runtime-main.js": "/diplom_sergey/static/js/runtime-main.3379ee47.js",
-    "static/css/2.0179ae7a.chunk.css": "/diplom_sergey/static/css/2.0179ae7a.chunk.css",
-    "static/js/2.2520e45c.chunk.js": "/diplom_sergey/static/js/2.2520e45c.chunk.js",
+    "main.css": "/diplom_sergey/static/css/main.a4bd2103.chunk.css",
+    "main.js": "/diplom_sergey/static/js/main.d639b011.chunk.js",
+    "runtime-main.js": "/diplom_sergey/static/js/runtime-main.13ca3e0c.js",
+    "static/css/2.77575171.chunk.css": "/diplom_sergey/static/css/2.77575171.chunk.css",
+    "static/js/2.fadd0ea9.chunk.js": "/diplom_sergey/static/js/2.fadd0ea9.chunk.js",
     "index.html": "/diplom_sergey/index.html",
-    "static/js/2.2520e45c.chunk.js.LICENSE.txt": "/diplom_sergey/static/js/2.2520e45c.chunk.js.LICENSE.txt"
+    "static/js/2.fadd0ea9.chunk.js.LICENSE.txt": "/diplom_sergey/static/js/2.fadd0ea9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.3379ee47.js",
-    "static/css/2.0179ae7a.chunk.css",
-    "static/js/2.2520e45c.chunk.js",
-    "static/css/main.07a3badb.chunk.css",
-    "static/js/main.3279e4fe.chunk.js"
+    "static/js/runtime-main.13ca3e0c.js",
+    "static/css/2.77575171.chunk.css",
+    "static/js/2.fadd0ea9.chunk.js",
+    "static/css/main.a4bd2103.chunk.css",
+    "static/js/main.d639b011.chunk.js"
   ]
 }
