@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/diplom_sergey/static/css/main.07a3badb.chunk.css",
+    "main.js": "/diplom_sergey/static/js/main.3279e4fe.chunk.js",
+    "runtime-main.js": "/diplom_sergey/static/js/runtime-main.3379ee47.js",
+    "static/css/2.0179ae7a.chunk.css": "/diplom_sergey/static/css/2.0179ae7a.chunk.css",
+    "static/js/2.2520e45c.chunk.js": "/diplom_sergey/static/js/2.2520e45c.chunk.js",
+    "index.html": "/diplom_sergey/index.html",
+    "static/js/2.2520e45c.chunk.js.LICENSE.txt": "/diplom_sergey/static/js/2.2520e45c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3379ee47.js",
+    "static/css/2.0179ae7a.chunk.css",
+    "static/js/2.2520e45c.chunk.js",
+    "static/css/main.07a3badb.chunk.css",
+    "static/js/main.3279e4fe.chunk.js"
+  ]
+}
