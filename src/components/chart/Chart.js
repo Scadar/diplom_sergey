@@ -1,8 +1,9 @@
 import React from 'react';
 import {Line} from '@ant-design/charts';
 import './Chart.css'
-const Chart = ({calculatedCords, realCords, diffCords}) => {
-
+import {useSelector} from "react-redux";
+const Chart = () => {
+    const {diffCords} = useSelector(state => state.cords)
     const getData = () => {
         let xIndex = 0
         let yIndex = 0
