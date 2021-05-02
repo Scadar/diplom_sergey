@@ -1,9 +1,11 @@
-import React from 'react';
+import React, {useRef} from 'react';
 import {Line} from '@ant-design/charts';
 import './Chart.css'
 import {useSelector} from "react-redux";
+import {Button} from "antd";
 const Chart = () => {
     const {diffCords} = useSelector(state => state.cords)
+    const downloadRef = useRef();
     const getData = () => {
         let xIndex = 0
         let yIndex = 0
@@ -37,6 +39,10 @@ const Chart = () => {
         return result
     }
 
+    const downloadImage = () => {
+        downloadRef.current?.downloadImage();
+    }
+
     let config = {
         data: getData(),
         xField: 'index',
@@ -55,8 +61,8 @@ const Chart = () => {
     };
     return (
         <div className='Chart'>
-            <div className='Chart__title'>График отклонения</div>
-            <Line {...config} />
+            <Button onClick={downloadImage} style={{marginBottom: 10}}>Скачать график</Button>
+            <Line {...config} chartRef={downloadRef}/>
         </div>
     )
 }

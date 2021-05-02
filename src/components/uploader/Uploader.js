@@ -1,6 +1,5 @@
 import React from 'react';
-import { Upload, message } from 'antd';
-import { UploadOutlined } from '@ant-design/icons';
+import {Upload, message, Button} from 'antd';
 import {useDispatch} from "react-redux";
 import {setStringCalculatedCords, setStringRealCords} from "../../store/cords/cords";
 
@@ -29,7 +28,7 @@ const Uploader = ({calc = false, real = false}) => {
     };
     return (
         <Upload {...props} >
-            <UploadOutlined style={{cursor: 'pointer', fontSize: 18, marginLeft: 15}}/>
+            <Button>Загрузить</Button>
         </Upload>
     );
 };

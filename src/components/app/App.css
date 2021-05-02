@@ -7,3 +7,13 @@
 .App {
     margin-top: 20px;;
 }
+
+.ant-message-notice {
+    text-align: right !important;
+}
+
+.navbar__fixed {
+    position: fixed !important;
+    top: 10px !important;
+    left: 10px !important;
+}
