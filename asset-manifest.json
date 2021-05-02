@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/diplom_sergey/static/css/main.a4bd2103.chunk.css",
-    "main.js": "/diplom_sergey/static/js/main.d639b011.chunk.js",
+    "main.css": "/diplom_sergey/static/css/main.b6737762.chunk.css",
+    "main.js": "/diplom_sergey/static/js/main.c00913e6.chunk.js",
     "runtime-main.js": "/diplom_sergey/static/js/runtime-main.13ca3e0c.js",
     "static/css/2.77575171.chunk.css": "/diplom_sergey/static/css/2.77575171.chunk.css",
-    "static/js/2.fadd0ea9.chunk.js": "/diplom_sergey/static/js/2.fadd0ea9.chunk.js",
+    "static/js/2.b9e25db3.chunk.js": "/diplom_sergey/static/js/2.b9e25db3.chunk.js",
     "index.html": "/diplom_sergey/index.html",
-    "static/js/2.fadd0ea9.chunk.js.LICENSE.txt": "/diplom_sergey/static/js/2.fadd0ea9.chunk.js.LICENSE.txt"
+    "static/js/2.b9e25db3.chunk.js.LICENSE.txt": "/diplom_sergey/static/js/2.b9e25db3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.13ca3e0c.js",
     "static/css/2.77575171.chunk.css",
-    "static/js/2.fadd0ea9.chunk.js",
-    "static/css/main.a4bd2103.chunk.css",
-    "static/js/main.d639b011.chunk.js"
+    "static/js/2.b9e25db3.chunk.js",
+    "static/css/main.b6737762.chunk.css",
+    "static/js/main.c00913e6.chunk.js"
   ]
 }
