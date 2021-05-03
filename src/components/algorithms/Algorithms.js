@@ -40,10 +40,11 @@ const Algorithms = () => {
                 }
                 return result
             }
-            console.log("useEffect")
             let graph1
             let graph2
-            kmeans.clusterize(getKMeansData(diffCords), {k: 2}, (err, res) => {
+            let graph3
+            let graph4
+            kmeans.clusterize(getKMeansData(diffCords), {k: 4}, (err, res) => {
                 if (err) {
                     console.error(err);
                 }
@@ -56,7 +57,7 @@ const Algorithms = () => {
                         type: 'scatter3d',
                         marker: {
                             color: 'rgb(46,16,175)',
-                            size: 4
+                            size: 3
                         }
                     }
                     graph2 = {
@@ -67,10 +68,32 @@ const Algorithms = () => {
                         type: 'scatter3d',
                         marker: {
                             color: 'rgb(182,19,19)',
-                            size: 4
+                            size: 3
                         }
                     }
-                    setGraphData([graph1, graph2])
+                    graph3 = {
+                        x: getPointFromArr(res[2].cluster, 'x'),
+                        y: getPointFromArr(res[2].cluster, 'y'),
+                        z: getPointFromArr(res[2].cluster, 'z'),
+                        mode: 'markers',
+                        type: 'scatter3d',
+                        marker: {
+                            color: 'rgb(127,219,16)',
+                            size: 3
+                        }
+                    }
+                    graph4 = {
+                        x: getPointFromArr(res[3].cluster, 'x'),
+                        y: getPointFromArr(res[3].cluster, 'y'),
+                        z: getPointFromArr(res[3].cluster, 'z'),
+                        mode: 'markers',
+                        type: 'scatter3d',
+                        marker: {
+                            color: 'rgb(0,0,0)',
+                            size: 3
+                        }
+                    }
+                    setGraphData([graph1, graph2, graph3, graph4])
                 }
             })
         }
