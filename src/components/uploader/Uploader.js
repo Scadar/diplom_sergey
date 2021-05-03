@@ -13,10 +13,10 @@ const Uploader = ({calc = false, real = false}) => {
                 let reader = new FileReader()
                 reader.onload = function() {
                     if(calc) {
-                        dispatch(setStringCalculatedCords(reader.result))
+                        dispatch(setStringCalculatedCords(reader.result.trim()))
                     }
                     if(real){
-                        dispatch(setStringRealCords(reader.result))
+                        dispatch(setStringRealCords(reader.result.trim()))
                     }
                 }
                 reader.readAsText(file)
